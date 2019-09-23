@@ -1,0 +1,17 @@
+{
+    "name": "dev.warpgate.nativeandroidbridge",
+    "version": "1.0.0",
+    "displayName": "Native Android Bridge",
+    "description": "This package has Toast, Clipboard, Share",
+    "unity": "2019.3",
+    "unityRelease": "0b3",
+    "keyboards": [
+        "android",
+        "native",
+        "toast"
+    ],
+    "author": {
+        "name": "Ariya Lawanitchanon",
+        "email": "arm.armariya@gmail.com"
+    }
+}

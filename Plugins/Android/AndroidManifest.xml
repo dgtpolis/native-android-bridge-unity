@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	  package="dev.warpgate.nativeandroidbridge">
+	<application>
+        <activity
+            anroid:name="ExitCurrentAppActivity"
+            android:theme="@android:style/Theme.NoDisplay" />
+	</application>
+</manifest>
