@@ -27,11 +27,11 @@ namespace WarpGate.Native {
 #endif
         }
 
-        public static void ImageWithChooser(string header, string imagePath) {
+        public static void ImageWithChooser(string header, string imagePath, string fileProvider) {
 #if UNITY_ANDROID
             WithActivity((activity) => {
                 using (var nativeClass = new AndroidJavaClass(NATIVE_SHARE_CLASS_NAME)) {
-                    nativeClass.CallStatic(SHARE_IMAGE_FUNCTION, activity, header, imagePath);
+                    nativeClass.CallStatic(SHARE_IMAGE_FUNCTION, activity, header, imagePath, fileProvider);
                 }
             });
 #endif

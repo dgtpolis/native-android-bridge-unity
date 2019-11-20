@@ -1,6 +1,6 @@
 {
     "name": "dev.warpgate.nativeandroidbridge",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Native Android Bridge",
     "description": "This package has Toast, Clipboard, Share",
     "unity": "2019.3",

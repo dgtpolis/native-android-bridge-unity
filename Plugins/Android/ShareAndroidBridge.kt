@@ -17,11 +17,11 @@ class ShareAndroidBridge {
             activity.startActivity(Intent.createChooser(shareIntent, header))
         }
 
-        @JvmStatic fun shareImageWithChooser(activity: Activity, header: String, filePath: String) {
+        @JvmStatic fun shareImageWithChooser(activity: Activity, header: String, filePath: String, fileProvider: String) {
             val contentFile = File(filePath)
             val contentUri = FileProvider.getUriForFile(
                 activity.applicationContext,
-                "dev.warpgate.fileprovider",
+                fileProvider,
                 contentFile
             )
 
