@@ -11,7 +11,7 @@ You have to add provider tag in AndroidManifest.xml and replace {YOUR_FILE_PROVI
 <application>
     <provider
       android:name="androidx.core.content.FileProvider"
-      android:authorities="dev.warpgate.fileprovider"
+      android:authorities="{YOUR_FILE_PROVIDER_NAME}"
       android:exported="false"
       android:grantUriPermissions="true">
         <meta-data
